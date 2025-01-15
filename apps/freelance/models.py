@@ -28,8 +28,6 @@ class WorkForFreelancer(BaseModel):
     demands_project = models.TextField(verbose_name=_("Demands Project"))
     date_posted = models.DateField(auto_now_add=True, verbose_name=_("Date Posted"))
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, related_name='works', verbose_name=_("Category"))
-
-    
         
     
 
