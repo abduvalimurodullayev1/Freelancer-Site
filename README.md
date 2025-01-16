@@ -1,6 +1,6 @@
 # FreeLance Api
 
-Django-Boilerplate for start a new project
+Freelancer Api for start a new project
 
 ## How to set up project (with Docker)
 
