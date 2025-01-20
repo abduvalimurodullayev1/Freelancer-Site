@@ -3,7 +3,6 @@ import json
 
 
 
-
 class PrivateChatConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         if self.scope['user'].is_anonymous:
